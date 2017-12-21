@@ -2,7 +2,7 @@
 
 **1.- ITEMS (79 - 1096)** -- Revisar y añadir objetos que faltan como megapiedras, añadir bayas con formato "tile".
 
-ASIGNADO A (ASSIGNED TO): ArviFM  // ESTADO(STATUS): COMPLETADO (COMPLETED) (Revisar si no se está de acuerdo en algo) 
+__ASIGNADO A (ASSIGNED TO)__: ArviFM  // ESTADO(STATUS): COMPLETADO (COMPLETED) (Revisar si no se está de acuerdo en algo) 
 
 **2.- BREEDING UPDATE (1098 - 1142)** -- Eliminar y colocar estas lineas intentando igualarlo al del archivo "en_US".
 
