@@ -2,11 +2,11 @@
 
 **1.- ITEMS (79 - 1096)** -- Revisar y añadir objetos que faltan como megapiedras, añadir bayas con formato "tile".
 
-__ASIGNADO A (ASSIGNED TO)__: ArviFM  // ESTADO(STATUS): COMPLETADO (COMPLETED) (Revisar si no se está de acuerdo en algo) 
+__ASIGNADO A (ASSIGNED TO)__: ArviFM  // __ESTADO(STATUS):__ COMPLETADO (COMPLETED) (Revisar si no se está de acuerdo en algo) 
 
 **2.- BREEDING UPDATE (1098 - 1142)** -- Eliminar y colocar estas lineas intentando igualarlo al del archivo "en_US".
 
-ASIGNADO A (ASSIGNED TO):  // ESTADO(STATUS):  SIN EMPEZAR (NOT STARTED)
+__ASIGNADO A (ASSIGNED TO):__ ArviFM // __ESTADO(STATUS):__  COMPLETADO (COMPLETED)
 
 **3.- ATTACKS AND THEIR DESCRIPTIONS (1149 - 3026)** -- Por suerte, la mayoría ya se tradujo. Falta revisar los nombres, comprobar que tienen el formato adecuado (he visto bugs en algunos ataques) y añadir los ataques añadidos por *generations. *NOTA: puede ser un trabajo algo pesado
 
