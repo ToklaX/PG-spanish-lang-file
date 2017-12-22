@@ -17,7 +17,7 @@
 *ASIGNADO A (ASSIGNED TO): ArviFM  // ESTADO(STATUS): COMPLETADO (COMPLETED) (Revisar si no se está de acuerdo en algo) 
 *
 *2.- BREEDING UPDATE (1098 - 1142) -- Eliminar y colocar estas lineas intentando igualarlo al del archivo "en_US".
-*ASIGNADO A (ASSIGNED TO):  // ESTADO(STATUS):  SIN EMPEZAR (NOT STARTED)
+*ASIGNADO A (ASSIGNED TO):ArviFM  // ESTADO(STATUS):  COMPLETADO (COMPLETED)
 *
 *3.- ATTACKS AND THEIR DESCRIPTIONS (1149 - 3026) -- Por suerte, la mayoría ya se tradujo. Falta revisar los nombres, comprobar que tienen el formato adecuado (he visto bugs en algunos ataques) y añadir los ataques añadidos por *generations. *NOTA: puede ser un trabajo algo pesado
 *ASIGNADO A (ASSIGNED TO):  // ESTADO(STATUS):  SIN EMPEZAR (NOT STARTED)
@@ -142,26 +142,32 @@ item.dive_ball.name=Buceo Ball
 item.luxury_ball.name=Lujo Ball
 item.heal_ball.name=Sana Ball
 item.dusk_ball.name=Ocaso Ball
+item.park_ball.name=Parque Ball
+item.quick_ball.name=Veloz Ball
+item.lure_ball.name=Cebo Ball
+item.sport_ball.name=Competi Ball
+item.cherish_ball.name=Gloria Ball
 item.premier_ball.name=Honor Ball
-item.poke_ball_lid.name=Cubierta de Poké Ball
-item.great_ball_lid.name=Cubierta de Super Ball
-item.ultra_ball_lid.name=Cubierta de Ultra Ball
-item.level_ball_lid.name=Cubierta de Nivel Ball
-item.moon_ball_lid.name=Cubierta de Luna Ball
-item.friend_ball_lid.name=Cubierta de Amigo Ball
-item.love_ball_lid.name=Cubierta de Amor Ball
-item.safari_ball_lid.name=Cubierta de Safari Ball
-item.heavy_ball_lid.name=Cubierta de Peso Ball
-item.fast_ball_lid.name=Cubierta de Veloz Ball
-item.repeat_ball_lid.name=Cubierta de Acopio Ball
-item.timer_ball_lid.name=Cubierta de Turno Ball
-item.nest_ball_lid.name=Cubierta de Nido Ball
-item.net_ball_lid.name=Cubierta de Malla Ball
-item.dive_ball_lid.name=Cubierta de Buceo Ball
-item.luxury_ball_lid.name=Cubierta de Lujo Ball
-item.heal_ball_lid.name=Cubierta de Sana Ball
-item.dusk_ball_lid.name=Cubierta de Ocaso Ball
-item.premier_ball_lid.name=Cubierta de Honor Ball
+item.gs_ball.name=GS Ball
+item.poke_ball_lid.name=Pieza superior Poké Ball
+item.great_ball_lid.name=Pieza superior Super Ball
+item.ultra_ball_lid.name=Pieza superior Ultra Ball
+item.level_ball_lid.name=Pieza superior Nivel Ball
+item.moon_ball_lid.name=Pieza superior Luna Ball
+item.friend_ball_lid.name=Pieza superior Amigo Ball
+item.love_ball_lid.name=Pieza superior Amor Ball
+item.safari_ball_lid.name=Pieza superior Safari Ball
+item.heavy_ball_lid.name=Pieza superior Peso Ball
+item.fast_ball_lid.name=Pieza superior Veloz Ball
+item.repeat_ball_lid.name=Pieza superior Acopio Ball
+item.timer_ball_lid.name=Pieza superior Turno Ball
+item.nest_ball_lid.name=Pieza superior Nido Ball
+item.net_ball_lid.name=Pieza superior Malla Ball
+item.dive_ball_lid.name=Pieza superior Buceo Ball
+item.luxury_ball_lid.name=Pieza superior Lujo Ball
+item.heal_ball_lid.name=Pieza superior Sana Ball
+item.dusk_ball_lid.name=Pieza superior Ocaso Ball
+item.premier_ball_lid.name=Pieza superior Honor Ball
 item.poke_ball_disc.name=Disco Poké Ball
 item.great_ball_disc.name=Disco Super Ball
 item.ultra_ball_disc.name=Disco Ultra Ball
@@ -181,6 +187,12 @@ item.luxury_ball_disc.name=Disco Lujo Ball
 item.heal_ball_disc.name=Disco Sana Ball
 item.dusk_ball_disc.name=Disco Ocaso Ball
 item.premier_ball_disc.name=Disco Honor Ball
+item.quick_ball_lid.name=Pieza superior Veloz Ball
+item.lure_ball_lid.name=Pieza superior Cebo Ball
+item.sport_ball_lid.name=Pieza superior Competi Ball
+item.quick_ball_disc.name=Disco Veloz Ball
+item.lure_ball_disc.name=Disco Cebo Ball
+item.sport_ball_disc.name=Disco Competi Ball
 item.iron_disc.name=Disco de hierro
 item.iron_base.name=Base de hierro
 item.aluminum_disc.name=Disco de Aluminio
@@ -1098,52 +1110,6 @@ itemGroup.Held Items=Objetos de Utilidad
 itemGroup.TMs/HMs=MTs/MOs
 itemGroup.utilityBlocks=Bloques de utilidad
 itemGroup.Decoration=Decoración
-
-//Breeding update
-item.park_ball.name=Parque Ball
-item.quick_ball.name=Veloz Ball
-item.lure_ball.name=Cebo Ball
-item.sport_ball.name=Competi Ball
-item.cherish_ball.name=Gloria Ball
-item.gs_ball.name=GS Ball
-item.quick_ball_lid.name=Parte superior Veloz Ball
-item.lure_ball_lid.name=Parte superior Cebo Ball
-item.sport_ball_lid.name=Parte superior Competi Ball
-item.quick_ball_disc.name=Parte inferior Veloz Ball
-item.lure_ball_disc.name=Parte inferior Cebo Ball
-item.sport_ball_disc.name=Parte inferior Competi Ball
-
-
-pixelmon.general.needowner=Sólo el propietario de este bloque puede acceder a él.
-
-pixelmon.egg.name=Huevo
-ability.Egg.name=Incubar
-pixelmon.egg.hatching=¡%s ha salido del Huevo!
-pixelmon.egg.hatchingan=¡%s ha salido del Huevo!
-pixelmon.egg.hatchingdata=Posición: %s, Ciclos: %s, Pasos: %s
-pixelmon.egg.stage1=Se escuchan sonidos. ¡Pronto saldrá!
-pixelmon.egg.stage2=A veces se mueve. Debe estar a punto de salir.
-pixelmon.egg.stage3=¿Que saldrá de éste? Aún le queda para abrirse.
-pixelmon.egg.stage4=Parece que a este Huevo le va a costar mucho abrirse.
-pixelmon.ranch.nopartner=¡%s no tiene a nadie para enamorarse!
-pixelmon.ranch.notcompatible=¡%s no se lleva bien con nadie aquí!
-pixelmon.ranch.level0=%s está loco por %s, pero no se siente cómodo en este ambiente.
-pixelmon.ranch.level1=¡A %s le gusta %s un poco más cada día!
-pixelmon.ranch.level2=¡A %s le atrae %s un poco más cada día!
-pixelmon.ranch.level3=¡El afecto de %s por %s crece más cada día!
-pixelmon.ranch.level4=¡%s está enamorado de %s todos los días!
-pixelmon.ranch.maxaffection=¡%s ama a %s al máximo!
-
-gui.ranch.managePokemon=Gestionar Pokémon
-gui.ranch.claimEgg=Reclamar Huevo
-gui.ranch.extendplusx=+X
-gui.ranch.extendminusx=-X
-gui.ranch.extendplusz=+Z
-gui.ranch.extendminusz=-Z
-gui.ranch.extendTitle=Extender el área del rancho
-gui.ranch.empty=No hay ningún Pokémon en el rancho
-ranch.hourglass.upgradedall=Todos los Pokémon aceleraron una etapa de crianza.
-ranch.hourglass.upgrade=%s aceleró una etapa de crianza.
 
 //Attacks and their Descriptions
 /*
@@ -4593,10 +4559,11 @@ pixelmon.interaction.abilitycapsule=¡La habilidad de %s cambió a %s!
 
 pixelmon.general.noeffect=¡No tuvo efecto!
 pixelmon.general.needop=Debes de ser Operador (OP) o tener permisos para realizar esta acción.
+pixelmon.general.needowner=Sólo el propietario de este bloque puede acceder a él.
 pixelmon.general.playerbusy=¡El jugador está ocupado!
 pixelmon.general.disabledblock=El servidor ha bloqueado este bloque.
-pixelmon.general.battleerror=¡Ha ocurrido un error con la batalla! Revisa la información de la consola y reporta este error a los desarrolladores de Pixelmon.
-pixelmon.general.errorlog=¡Ha ocurrido un error con la batalla! Por favor reporta este error a los desarrolladores de Pixelmon.
+pixelmon.general.battleerror=¡Ha ocurrido un error durante el combate! Revisa la información de la consola y reporta este error a los desarrolladores de Pixelmon.
+pixelmon.general.errorlog=¡Ha ocurrido un error durante el combate! Por favor reporta este error a los desarrolladores de Pixelmon.
 
 pixelmon.npc.tradername=Intercambio
 pixelmon.npc.trader=¡No tienes el Pokémon que estoy buscando! Me gustaría un %s.
@@ -4948,6 +4915,24 @@ pixelmon.abilities.waterveilcure=¡Velo Agua de %s cura la quemadura!
 pixelmon.abilities.whitesmoke=¡Humo Blanco de %s evita que bajen los estados!
 pixelmon.abilities.wonderguard=¡Superguarda de %s evita el ataque!
 
+//Breeding
+pixelmon.egg.name=Huevo
+ability.Egg.name=Incubar
+pixelmon.egg.hatching=¡El Huevo a eclosionado en un %s!
+pixelmon.egg.hatchingan=¡El Huevo a eclosionado en un %s!
+pixelmon.egg.hatchingdata=Posición: %s, Ciclos: %s, Pasos: %s
+pixelmon.egg.stage1=Se escuchan sonidos. ¡Pronto saldrá!
+pixelmon.egg.stage2=A veces se mueve. Debe estar a punto de salir.
+pixelmon.egg.stage3=¿Que saldrá de éste? Aún le queda para abrirse.
+pixelmon.egg.stage4=Parece que a este Huevo le va a costar mucho abrirse.
+pixelmon.ranch.nopartner=¡%s no tiene a nadie para enamorarse!
+pixelmon.ranch.notcompatible=¡%s no se lleva bien con nadie!
+pixelmon.ranch.level0=%s está loco por %s, pero no se siente cómodo en este ambiente.
+pixelmon.ranch.level1=¡A %s le gusta %s un poquito más cada día!
+pixelmon.ranch.level2=¡A %s le atrae %s algo más cada día!
+pixelmon.ranch.level3=¡El afecto entre %s y %s crece más cada día!
+pixelmon.ranch.level4=¡%s está perdidamente enamorado de %s cada día!
+pixelmon.ranch.maxaffection=¡%s está enamorado de %s lo máximo posible!
 
 //GUI stuff
 /*
@@ -5455,6 +5440,17 @@ gui.tutor.deletetutor=Eliminar Tutor
 gui.tutor.canlearn=Puede aprender
 gui.tutor.cantlearn=No puede aprender
 gui.tutor.already=Ya ha aprendido
+
+gui.ranch.managePokemon=Gestionar Pokémon
+gui.ranch.claimEgg=Reclamar Huevo
+gui.ranch.extendplusx=+X
+gui.ranch.extendminusx=-X
+gui.ranch.extendplusz=+Z
+gui.ranch.extendminusz=-Z
+gui.ranch.extendTitle=Ampliar el área de crianza
+gui.ranch.empty=No hay ningún Pokémon en el rancho
+ranch.hourglass.upgradedall=Todos los Pokémon han incrementado una etapa de crianza.
+ranch.hourglass.upgrade=%s ha incrementado una etapa de crianza.
 
 gui.trader.eggDescription=Me pregunto que saldrá de este...
 
