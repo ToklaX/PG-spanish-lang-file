@@ -1,15 +1,15 @@
-﻿/**************** EN_US *************************
+﻿/**************** EN_US *************************v1.15
 * File translated by 'ArviFM (ToklaX)' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ArviFM (ToklaX)'
 * Spanish translator (contributor): 'Wirlie' 'Vela231'
 * Last Update: December 23, 2017 - by ArviFM
 *************************************************/
 
-/**************** ES_ES *************************
+/**************** ES_ES *************************v.1.15
 * Archivo traducido por 'ArviFM (ToklaX)' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ArviFM (ToklaX)'
 * Spanish translator (contributor): 'Wirlie' 'Vela231'
-* Última actualización: 21 de diciembre de 2017 por ArviFM
+* Última actualización: 23 de diciembre de 2017 por ArviFM
 *************************************************/
 /******************************COSAS POR HACER / THINGS TO DO:
 *
@@ -4845,7 +4845,7 @@ pixelmon.blocks.maxPlants=¡Ya hay demasiadas plantas aquí! Inténtalo en otro 
 //Poké Balls
 pixelmon.pokeballs.inbattle=¡Este Pokémon ya está en combate!
 pixelmon.pokeballs.alreadyown=¡No puedes capturar un Pokémon que ya tienes!
-pixelmon.pokeballs.boss=¡No puedes capturar un Pokémon Jefe!
+pixelmon.pokeballs.boss=¡No puedes capturar un Pokémon Alfa!
 pixelmon.pokeballs.capture=¡Has capturado un %s salvaje!
 pixelmon.pokeballs.brokefree=¡%s se liberó!
 pixelmon.pokeballs.throw=¡%s lanzó una %s!
@@ -5195,7 +5195,7 @@ gui.guiEvolve.evolve=¿Qué? ¡$p está evolucionando!
 gui.guiEvolve.done=¡Tu $p evolucionó a $n!
 gui.guiEvolve.cancel=¡Evolución cancelada!
 
-gui.guiItemDrops.beatBossPixelmon1=¡Derrotaste a un jefe $p!
+gui.guiItemDrops.beatBossPixelmon1=¡Has derrotado un $p Alfa!
 gui.guiItemDrops.beatTrainer1=¡Derrotaste a un entrenador!
 gui.guiItemDrops.mouse=Pasa el ratón sobre
 gui.guiItemDrops.see=el objeto para ver
@@ -5292,7 +5292,7 @@ gui.pixelmonspawner.maxspawns=Máx. Spawns
 gui.pixelmonspawner.minspawns=Mín. Spawns
 gui.pixelmonspawner.maxlevel=Máx. Nivel
 gui.pixelmonspawner.minlevel=Mín. Nivel
-gui.pixelmonspawner.bossratio=Prob. de Jefe
+gui.pixelmonspawner.bossratio=Prob. de Alfa
 gui.pixelmonspawner.aggression=Agresividad
 gui.pixelmonspawner.spawnlocation=Posición
 
@@ -5302,7 +5302,7 @@ gui.creativeinv.hp=PS
 gui.trainereditor.edit=Editar
 gui.trainereditor.more=Más
 gui.trainereditor.trainereditor=Editor de entrenador
-gui.trainereditor.bosstype=Jefe
+gui.trainereditor.bosstype=Alfa
 gui.trainereditor.aimode=IA de Movimiento
 gui.trainereditor.battleaimode=IA de Batalla
 gui.trainereditor.encountermode=Modo de Encuentro
@@ -5407,7 +5407,7 @@ gui.save.text=Guardar
 gui.texture.text=Textura
 gui.cancel.text=Cancelar
 gui.description.text=Descripción
-gui.boss.text=Jefe:
+gui.boss.text=Alfa:
 
 gui.mail.seal=Firmar carta
 gui.mail.close=Cerrar carta
@@ -5600,11 +5600,11 @@ enum.statuetex.stone=Piedra
 enum.statuetex.gold=Oro
 enum.statuetex.bronze=Bronce
 enum.statuetex.silver=Plata
-enum.statuetex.bossred=Jefe Rojo
-enum.statuetex.bossgreen=Jefe Verde
-enum.statuetex.bossblue=Jefe Azul
-enum.statuetex.bossyellow=Jefe Amarillo
-enum.statuetex.bossorange=Jefe Naranja
+enum.statuetex.bossred=Alfa Rojo
+enum.statuetex.bossgreen=Alfa Verde
+enum.statuetex.bossblue=Alfa Azul
+enum.statuetex.bossyellow=Alfa Amarillo
+enum.statuetex.bossorange=Alfa Naranja
 
 enum.spawnlocation.land=Suelo
 enum.spawnlocation.water=Agua
@@ -6954,7 +6954,7 @@ pixelmon.config.starter.tooltip=Ajustes de Iniciales
 pixelmon.config.spawnTickRate=Ticks de Aparición
 pixelmon.config.spawnDimensions=Dimensiones de aparición
 pixelmon.config.shinySpawnRate=Prob. de aparición de Shinies (1/x)
-pixelmon.config.bossSpawnTicks=Ticks de aparición de Jefes
+pixelmon.config.bossSpawnTicks=Ticks de aparición de Alfas
 pixelmon.config.legendarySpawnTicks=Ticks en Legendarios
 pixelmon.config.legendaryRepeatSpawnTicks=Repetir ticks en Legendarios
 pixelmon.config.legendarySpawnChance=Prob. de aparición de Legendarios
@@ -6980,10 +6980,10 @@ pixelmon.config.Gen6=Generación 6
 pixelmon.config.maxSpawnsPerTick=Máx. número de apariciónes Pokémon por tick 
 pixelmon.config.maxLandPokemon=Máx. Pokémon sobre tierra
 pixelmon.config.maxUndergroundPokemon=Máx. Pokémon bajo tierra
-pixelmon.config.maxWaterPokemon=Máx. Pokémon en el agua
+pixelmon.config.maxWaterPokemon=Máx. Pokémon en agua
 pixelmon.config.maxFlyingPokemon=Máx. Pokémon en vuelo
-pixelmon.config.maxNumNPCs=Número de NPCs
-pixelmon.config.maxNumBosses=Número de jefes
+pixelmon.config.maxNumNPCs=Número máximo de NPCs
+pixelmon.config.maxNumBosses=Número máximo de alfas
 
 pixelmon.config.despawnOnFleeOrLoss=Desaparecer al escapar o perder
 
@@ -7063,7 +7063,7 @@ pixelmon.config.enablePokedexWikiWebsiteOpen=Permitir a la Pokédex abrir la wik
 pixelmon.config.useExternalJSONFiles=Usar archivos externos JSON
 pixelmon.config.chunkSpawnRadius=Distancia de chunks Pókemon
 pixelmon.config.battleAIWild=Pokémon salvajes (IA de Combate)
-pixelmon.config.battleAIBoss=Jefes Pokémon (IA de Combate)
+pixelmon.config.battleAIBoss=Alfas Pokémon (IA de Combate)
 pixelmon.config.battleAITrainer=Entrenadores (IA de Combate)
 pixelmon.config.expModifier=Modificador de Experiencia
 pixelmon.config.multiplePhotosOfSamePokemon=Permite sacar varias fotos del mismo Pokémon
@@ -7168,7 +7168,7 @@ pixelmon.config.chunkSpawnRadius.comment=El radio de chunks alrededor del jugado
 pixelmon.config.battleAIDescription=1: Utiliza ataques aleatoriamente. 2: Utiliza ataques con el mayor daño posible (en función del tipo), ignorando ataques. de estado. 3: Usa ataques ofensivos y de estado.
 pixelmon.config.battleAIDescriptionAdvanced=4: Usa ataques inteligentemente y cambia de Pokémon cuando sea conveniente.
 pixelmon.config.battleAIWild.comment=El tipo de IA que usarán los Pokémon salvajes durante un combate.
-pixelmon.config.battleAIBoss.comment=El tipo de IA que usarán los Pokémon jefes durante un combate.
+pixelmon.config.battleAIBoss.comment=El tipo de IA que usarán los Pokémon Alfa durante un combate.
 pixelmon.config.battleAITrainer.comment=El tipo de IA que usarán los Entrenadores durante un combate.
 pixelmon.config.expModifier.comment=Multiplicador de la experiencia conseguida en combates Pokémon.
 pixelmon.config.multiplePhotosOfSamePokemon.comment=Permite que cada jugador pueda sacar varias fotos al mismo Pokémon.
@@ -7187,7 +7187,7 @@ pixelmon.config.berryTreeGrowthMultiplier.comment=Multiplicador de velocidad de 
 pixelmon.config.spawnTickRate.comment=Número de ticks antes de que se produzca un intento de aparición de entidades entiedades.
 pixelmon.config.spawnDimensions.comment=Lista de dimensiones en las que los Pokémon aparecerán.
 pixelmon.config.shinySpawnRate.comment=El calculo Shiny utiliza 1/(tasa de Shiny) para obtener la probabilidad de ser Shiny.
-pixelmon.config.bossSpawnTicks.comment=Número medio de ticks para que aparezca un jefe.
+pixelmon.config.bossSpawnTicks.comment=Número medio de ticks para que aparezca un Alfa.
 pixelmon.config.legendarySpawnTicks.comment=Número medio de ticks antes de que aparezca un Legendario (modificado por la probabilidad de aparecer).
 pixelmon.config.legendaryRepeatSpawnTicks.comment=Número mínimo de ticks antes de que un legendario en particular pueda aparecer de nuevo (vía spawn natural).
 pixelmon.config.legendarySpawnChance.comment=Probabilidad de que la aparición de un Legendario tendrá éxito (0-1).
@@ -7215,7 +7215,7 @@ pixelmon.config.maxUndergroundPokemon.comment=Número máximo de Pokémon bajo t
 pixelmon.config.maxWaterPokemon.comment=Número máximo de Pokémon en el agua al mismo tiempo.
 pixelmon.config.maxFlyingPokemon.comment=Número máximo de Pokemon en vuelo al mismo tiempo (se recomienda no introducir valores altos).
 pixelmon.config.maxNumNPCs.comment=Número máximo de NPCs al mismo tiempo.
-pixelmon.config.maxNumBosses.comment=Número máximo de jefes al mismo tiempo.
+pixelmon.config.maxNumBosses.comment=Número máximo de Pokémon Alfa al mismo tiempo.
 pixelmon.config.despawnOnFleeOrLoss.comment=Fuerza a los Pokémon salvajes a desaparecer tras un combate.
 
 pixelmon.config.spawnNormal.comment=Permite aparecer PokeCofres visibles aleatoriamente por todo el mundo.
