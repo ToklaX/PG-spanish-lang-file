@@ -5682,10 +5682,10 @@ gui.ranch.extendplusx=+X
 gui.ranch.extendminusx=-X
 gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
-gui.ranch.extendTitle=Ampliar el área de crianza
-gui.ranch.empty=No hay ningún Pokémon en el rancho
-ranch.hourglass.upgradedall=Todos los Pokémon han incrementado una etapa de crianza.
-ranch.hourglass.upgrade=%s ha incrementado una etapa de crianza.
+gui.ranch.extendTitle=Ampliar zona de crianza
+gui.ranch.empty=No hay ningún Pokémon la zona de crianza
+ranch.hourglass.upgradedall=Todos los Pokémon han incrementado una etapa en su crianza.
+ranch.hourglass.upgrade=%s ha incrementado una etapa en su crianza.
 
 gui.trader.eggDescription=Me pregunto que saldrá de este...
 
@@ -5970,7 +5970,7 @@ tile.zapdos_shrine.name=Altar Eléctrico
 tile.moltres_shrine.name=Altar de Fuego
 tile.apricorntree.name=Árbol Bonguri
 tile.mechanical_anvil.name=Yunque Mecánico
-tile.ranch.name=Bloque del Rancho
+tile.ranch.name=Bloque de crianza
 tile.leafstoneore_overlay.name=Mena de Piedra Hoja
 tile.null.name=Placa de presión oculta
 tile.unown_block.A.name=Bloque Unown 'A'
@@ -7085,15 +7085,15 @@ pixelmon.config.afkHandlerTurnSeconds=Segundos por cada turno estando AFK
 
 pixelmon.config.allowBreeding=Activar Crianza
 pixelmon.config.allowDittoDittoBreeding=Activar crianza Ditto-Ditto
-pixelmon.config.allowRandomBreedingEggsToBeLegendary=Ditto-Ditto se puede obtener Legendarios
+pixelmon.config.allowRandomBreedingEggsToBeLegendary=Ditto-Ditto obtención de Legendarios
 pixelmon.config.allowRandomSpawnedEggsToBeLegendary=/pokegiveegg puede dar Legendarios
-pixelmon.config.allowRanchCrafting=Activar creación del rancho
-pixelmon.config.useBreedingEnvironment=Usar ambientes adecuados para criar
+pixelmon.config.allowRanchCrafting=Creación del bloque de crianza
+pixelmon.config.useBreedingEnvironment=Usar ambientes adecuados para la crianza
 pixelmon.config.breedingEnvironmentCheckSeconds=Tiempo de verificación del entorno
 pixelmon.config.stepsPerEggCycle=Pasos por ciclo del Huevo
 pixelmon.config.numBreedingStages=Etapas hasta la Reproducción
 pixelmon.config.breedingTicks=Ticks por etapa
-pixelmon.config.allowRanchExpansion=Activar expansión del rancho
+pixelmon.config.allowRanchExpansion=Activar expansión zona de crianza
 
 pixelmon.config.level=Nivel del Inicial
 pixelmon.config.shiny=Iniciales Shiny
@@ -7117,23 +7117,23 @@ pixelmon.config.breeding.comment=Ajustes para el funcionamiento de la crianza.
 pixelmon.config.externalmoves.comment=Ajustes para controlar los ataques externos.
 pixelmon.config.database.comment=Ajustes para reubicar el sistema de guardado de Pixelmon en una database externa.
 pixelmon.config.sound.comment=Ajustes de sonido.
-pixelmon.config.pixelutilities.comment=Ajustes de PixelUtilities.
+pixelmon.config.pixelutilities.comment=Ajustes de 'PixelUtilities'.
 pixelmon.config.elevator.comment=Opciones del elevador.
 
-pixelmon.config.awardPhotos.comment=Concede imagenes a los jugadores de los Pokémon salvajes que derrotan.
-pixelmon.config.wildCanFlee.comment=Los Pokémon salvajes tendrán la ocasión, basado en condiciones del combate desfavorables, de poder huir del combate.
-pixelmon.config.spinBattleCamera.comment=La cámara en combate girará alrededor del jugador si está activado, y quieta si está desactivado.
-pixelmon.config.spawnStructures.comment=Permite generar estructuras aleatorias como Centros Pokémon, altares, y otras construcciones si está activo.
+pixelmon.config.awardPhotos.comment=Otorga imagenes a los jugadores de los Pokémon salvajes que derrotan.
+pixelmon.config.wildCanFlee.comment=Los Pokémon salvajes tendrán la ocasión, dependiendo de las condiciones desfavorables del combate, de poder huir del combate.
+pixelmon.config.spinBattleCamera.comment=La cámara en combate girará alrededor del jugador si está activado, y estable si está desactivado.
+pixelmon.config.spawnStructures.comment=Si está activado, permite generar estructuras aleatorias como Centros Pokémon, altares, y otras construcciones.
 pixelmon.config.allowPokemonNicknames.comment=Permite al jugador apodar a los Pokémon (no es ajuste para servidores, sólo ajuste de cliente).
 pixelmon.config.allowAnvilAutoreloading.comment=Permite al yunque remplazar objetos terminados con objetos iniciales del inventario del jugador sin colocar manualmente.
-pixelmon.config.allowVanillaMobs.comment=Pueden aparecer creepers, esqueletos, etc. en el mundo. PELIGRO - pueden matarte mientras combates.
+pixelmon.config.allowVanillaMobs.comment=Pueden aparecer creepers, esqueletos, etc. en el mundo. AVISO - pueden matarte mientras combates.
 pixelmon.config.allowCaptureOutsideBattle.comment=Permite al jugador lanzar Poké Balls desde el inventario. Si está desactivado, sólo se podrán usar Poké Balls en combate.
 pixelmon.config.npcRarity.comment=Establece la frecuencia de los NPCs. Con valores altos aparecerán NPCs (entrenadores, tutores) con más frecuencia, 0 no aparecerán NPCs.
-pixelmon.config.namePlateRange.comment=Fija la distancia en que los nombres y niveles de los Pokémon puden ser vistos (sólo ajuste de cliente). 1=Por defecto, 2=Muy lejos, 3=Lejos
+pixelmon.config.namePlateRange.comment=Fija la distancia en la que los nombres y los niveles de los Pokémon puden ser vistos (sólo ajuste de cliente). 1=Por defecto, 2=Muy lejos, 3=Lejos
 pixelmon.config.showWildNames.comment=Muestra o no los nombres de los Pokémon salvajes.
-pixelmon.config.scalePokemonModels.comment=Incrementa el tamaño de los modelos Pokémon en el juego 30%.
+pixelmon.config.scalePokemonModels.comment=Aumenta el tamaño de los modelos Pokémon en el juego un 30%.
 pixelmon.config.growthScaleModifier.comment=Ajusta la variación del tamaño causada por el crecimiento (0-2). 1 es normal.
-pixelmon.config.pokemonDropsEnabled.comment=Permite que los Pokemon salvajes suelten objetos como plumas, etc. cuando se debilitan.
+pixelmon.config.pokemonDropsEnabled.comment=Permite que los Pokemon salvajes suelten objetos como plumas, etc, cuando se debilitan.
 pixelmon.config.printErrors.comment=Muestra mensajes de errores más detallados en el archivo "server.log" si está activado.
 pixelmon.config.allowRiding.comment=Permite a los jugadores montar sobre Pokémon. Si está desctivado, no se podrá montar en los Pokémon (opción de servidor).
 pixelmon.config.allowPlanting.comment=Permite a los jugadores plantar Bonguris en el suelo.
@@ -7237,17 +7237,17 @@ pixelmon.config.useOriginalPokemonTexturesForStatues.comment=Usar texturas origi
 pixelmon.config.showCurrentAttackTarget.comment=Muestra el objetivo actual seleccionado del Pokémon en pantalla.
 pixelmon.config.drawHealthBars.comment=Muestra una barra de vida sobre la cabeza de los Pokemon.
 
-pixelmon.config.allowBreeding.comment=Permite colocar bloques del rancho, necesarios para la reproducción Pokémon.
+pixelmon.config.allowBreeding.comment=Permite colocar bloques de crianza, necesarios para la reproducción entre Pokémon.
 pixelmon.config.allowDittoDittoBreeding.comment=Permite a dos Dittos criar juntos para producir Huevos con Pokémon aleatorios.
 pixelmon.config.allowRandomBreedingEggsToBeLegendary.comment=Activar Huevos aleatorios de Legendarios durante la crianza Ditto-Ditto.
 pixelmon.config.allowRandomSpawnedEggsToBeLegendary.comment=Activar Huevos aleatorios de Legendarios al introducir /pokegiveegg.
-pixelmon.config.allowRanchCrafting.comment=Permite la creación de bloques del rancho.
+pixelmon.config.allowRanchCrafting.comment=Permite la creación mediante "crafteo" de bloques de crianza.
 pixelmon.config.useBreedingEnvironment.comment=Controla la velocidad de reproducción en función de los bloques colocados en la zona. Si está desactivado, la velocidad de crianza se establecerá en 1.0x.
 pixelmon.config.breedingEnvironmentCheckSeconds.comment=Segundos que deben pasar para verificar el entorno para la reproducción. Es necesario activar Entorno de Reproducción.
 pixelmon.config.stepsPerEggCycle.comment=Fija el número de pasos por cada ciclo del Huevo. Dígitos bajos eclosionarán los Huevos más rápido.
 pixelmon.config.numBreedingStages.comment=Número de etapas que deberán pasar antes de que se reproduzcan (1-5).
 pixelmon.config.breedingTicks.comment=Número de ticks del mundo necesarios para incrementar la etapa de reproducción.
-pixelmon.config.allowRanchExpansion.comment=Permitir la expansión del rancho.
+pixelmon.config.allowRanchExpansion.comment=Permitir la expansión de la zona de crianza.
 
 pixelmon.config.allowExternalMoves.comment=Permite el uso de movimientos externos como Golpe Roca y Corte.
 pixelmon.config.allowDestructiveExternalMoves.comment=Permite movimientos externos destructivos (incluye Corte, Excavar, Explosión, Fuego, Rayo, Golpe Roca)
